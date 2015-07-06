@@ -1,0 +1,81 @@
+*{margin:0; padding:0}
+a {text-decoration:none}
+html {font-family: sans-serif; font-size: 1.2em; line-height: 1.8em;color:#333;overflow-y:scroll}
+del{color:#ff2222}
+ins{color:#00dd00}
+
+#menu {text-align:right;position:fixed;z-index:1; top:0;left:0; width:100%; display:flex; flex-direction: row; justify-content: space-between;
+
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+}
+#menu li {position:relative;list-style:none;  flex-grow: 1;margin: 0 .2em; text-align:center}
+#menu li:first-child {margin-left:0}
+#menu li:last-child {margin-right:0}
+#menu a,#menu span {display:block; padding: .8em 1.2em;  color: #fff; background: #3333ff; box-shadow: inset -1px -1px 0 rgba(0,0,0,.4)}
+#menu a:hover{background:#ff3333;}
+.menu2{display:none;position:absolute;left:0;right:0;}
+.menu2 li{margin:0 !important;text-align:left !important}
+#menu li:hover .menu2{display:block;}
+
+#content {position:relative;z-index:0;padding-top:6em}
+#content article{display:block;padding:2em; padding-top:0}
+#content article h2 {margin-bottom:1em}
+#content section {display:block;padding:1em 0;}
+#content section h2 {margin-bottom:.4em; color:#aaa;font-size:1.5em;font-weight:normal;}
+#content p{margin:.5em 0}
+
+#content h1 {font-size: 2.5em; margin-bottom:1em }
+#content h1 i {font-style:normal; color: #aaa;}
+
+table{width:100%;border-collapse:collapse;line-height:1.2em}
+thead {font-weight:normal; font-size:1.3em; }
+thead td {padding:.5em .3em}
+tbody td{padding:.7em .4em}
+tbody tr:nth-child(2n+1) {background: #ccc; }
+.nohover td{background: #ccc !important; color: inherit !important}
+tbody tr:hover td{background:#555;color:#fff}
+tbody tr:hover a{color:#fff !important}
+tfoot td{padding-top:.5em}
+
+#content a {color:#3333ff;}
+#content a:hover{text-decoration:underline; color:#ff3333}
+
+header{padding:0 0 .5em 0;text-align:center}
+header h1 {color:#3333ff; font-style:italic; font-size:3em;margin-bottom:.5em}
+header h2 {color:#3333ff;font-size:1.5em;margin-bottom:1em}
+
+
+.form {border:0;background: #eee; }
+.form fieldset{border:0;text-align:left;padding:1.5em;margin:auto;width:26.4em}
+.form fieldset > div {margin-bottom:1em;}
+.form fieldset > div:last-child{margin:0}
+.form fieldset > div::after{content:" ";display:block;clear:both}
+.form input[type=text],.form select,.form  input[type=email],.form  input[type=password] {background:#fff; border:0; font-size: 1em; padding: .7em;width:15em;float:left;box-shadow:inset -1px -1px 1px rgba(0,0,0,.3);border-radius:.4em}
+.form select{width:16.4em}
+.form fieldset > div  > label,.form .label{width:10em;float:left;padding-top:.5em}
+.form input[type=submit] , .submit{background:#ff3333;color:#fff;border:0; font-size: 1em; padding: .7em;margin:auto;width:20em;cursor:pointer; box-shadow:inset -1px -1px 1px rgba(0,0,0,.3);border-radius:.4em}
+.form input[type=checkbox] {margin-right:.5em}
+.form .button{padding:1.5em;background:#ccc;text-align:center}
+.form legend{color:#666;font-size:.8em;text-transform:uppercase;padding-top:1.5em}
+.form .radiobuttons{float:left;padding:.7em;padding-top:.5em}
+#ulica{width:11.1em;margin-right:.5em}
+#numer{width:2em}
+.form .podglad{float:left;padding-top:.5em}
+
+.blank input[type=text], .blank input[type=number]{background:#fff; border:0; font-size: inherit; padding: .3em;width:6em;box-shadow:inset -1px -1px 1px rgba(0,0,0,.3);border-radius:.4em; }
+.blank input[type=submit]{background:#ff3333;color:#fff;border:0; font-size: inherit; padding: .3em;cursor:pointer; box-shadow:inset -1px -1px 1px rgba(0,0,0,.3);border-radius:.4em}
+
+.column1{float:left;width:78%;padding-bottom:1.5em}
+.column2{float:right;width:21%;padding-bottom:1.5em}
+.column2::after{content:" ";display:block;clear:both}
+
+.menu3 li{list-style:none}
+.menu3 ul{margin-bottom:1em}
+
+.nowrap {white-space: nowrap; display:block}
+.id{width:1em}
