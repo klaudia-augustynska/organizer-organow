@@ -50,6 +50,6 @@ Oprogramowanie pozwala zdefiniować
 
 Funkcje te rzecz jasna należy traktować z przymróżeniem oka...
 
-Dużą zaletą jest moduł użytkowników - system pozwala definiować role oraz przypisywać różnym rolom dostęp do różnych funkcji systemu. Pozwala to np. udostępnić pewien rodzaj zasobów tylko dla pracowników, a inny dla dawców.
+Dużą zaletą jest moduł użytkowników - system pozwala definiować role oraz przypisywać różnym rolom dostęp do różnych funkcji systemu. Pozwala to np. udostępnić pewien rodzaj zasobów tylko dla pracowników, a inny dla dawców. Każdy użytkownik może posiadać kilka ról (np. pracownik może być też dawcą). Menu widoczne dla danego użytkownika generuje się rekurencyjnie na podstawie opcji udostępnionych temu użytkownikowi.
 
 _\* ten PHP to jest na poziomie "klasę i pętlę to we wszystkim napiszę", ale nie on jest tu gwiazdą programu. Ja w każdym razie nigdzie nie deklaruję, że jestem specem od PHP._
