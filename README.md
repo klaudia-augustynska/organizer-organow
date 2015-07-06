@@ -18,7 +18,7 @@ Promocja dla pierwszych 10 użytkowników: **2.999 zł** (zwykła cena: 10.899 z
 
 # A tak na serio...
 
-...to jest projekt na przedmiot "Projekt Bazodanowy". Składa się z 15 tabel, w tym 3 tabele na potrzeby relacji wiele-do-wielu. Użyte technologie to PHP* i MySQL.
+...to jest projekt na przedmiot "Projekt Bazodanowy". Składa się z 15 tabel, w tym 3 tabele na potrzeby relacji wiele-do-wielu. Użyte technologie to PHP* i MySQL (no i przy okazji bawiłam się _flexible box model_ z CSS3, bo to wtedy była nowość)
 
 
 
