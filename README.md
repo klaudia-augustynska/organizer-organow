@@ -48,7 +48,7 @@ Oprogramowanie pozwala zdefiniować
 - stanowiska (dyrektor, project manager ds. przechowywania narządów)
 - państwa, grupy krwi.
 
-Funkcje te rzecz jasna należy traktować z przymróżeniem oka...
+Funkcje te rzecz jasna należy traktować z przymrużeniem oka...
 
 Dużą zaletą jest moduł użytkowników - system pozwala definiować role oraz przypisywać różnym rolom dostęp do różnych funkcji systemu. Pozwala to np. udostępnić pewien rodzaj zasobów tylko dla pracowników, a inny dla dawców. Każdy użytkownik może posiadać kilka ról (np. pracownik może być też dawcą). Menu widoczne dla danego użytkownika generuje się rekurencyjnie na podstawie opcji udostępnionych temu użytkownikowi.
 
